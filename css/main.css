@@ -1,0 +1,59 @@
+*, p, html, body, h1, h2, h3, h4, h5, div, span, header, footer {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 100%;
+  letter-spacing: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 10px 0 10px 0;
+}
+
+h1 { font-size: 200% }
+h2 { font-size: 180% }
+h3 { font-size: 160% }
+h4 { font-size: 140% }
+h5 { font-size: 120% }
+
+p {
+  padding: 10px 0 10px 0;
+}
+
+img {
+  padding: 10px;
+}
+
+.push-right {
+  float: right;
+}
+
+.fix-float {
+  overflow: hidden;
+}
+
+.yellow-block {
+  background-color: yellow;
+}
+
+.red-block {
+  position: absolute;
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+
+.black-block {
+  background-color: black;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ul li {
+  margin-left: 20px;
+}
